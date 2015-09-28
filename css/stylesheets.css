@@ -34,7 +34,7 @@ html body{
   text-align: center;
   border: 1px solid black;
 }
-.header-btn > h1{
+.header-btn h1{
   margin: 0;
   height: 100%;
 }
