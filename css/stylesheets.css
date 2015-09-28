@@ -3,6 +3,7 @@
   font-family: 'Noto Sans', sans-serif;
 }
 html{
+    min-width:1360px;   
   height: 100%;
   width: 100%;
 }
