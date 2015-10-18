@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'Ubuntu';
+  src: url("./Ubuntu-Regular.ttf");
+}
+  html body{
+    position:relative;
+    text-align: center;
+    background-color: #000;
+  }
+  #box{
+    position: relative;
+    top: 100px;
+    background-color: #000;
+  }
+  #timer{
+    color: #FFF;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 56pt;
+  }
+  button{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24pt;
+    background-color: #FFF;
+    height: 50px;
+    width: 200px;
+    border-radius: 15px;
+    border-width: medium;
+  }

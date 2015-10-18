@@ -17,7 +17,7 @@ html body{
   width: 100%;
   position: relative;
   top: 45px;
-  overflow: hidden;
+  overflow: scroll;
   background-color: #000;
 }
 .header{
@@ -44,11 +44,6 @@ html body{
   color: #FFF;
   text-decoration: none;
 }
-.container{
-  height          : 100%;
-  width           : 100%;
-  overflow: scroll;
-}
 .fourth{
   height: 100%;
   width: 100%;
@@ -59,9 +54,9 @@ html body{
   position: relative;
   float: left;
   width: 33%;
-  height: 50%;
+  height: 70%;
   left: 10%;
-  background-image: url("http://catalogue.3m.eu/pcimages/10220/fullsize.jpg");
+  background-image: url("../img/tape.jpg");
   background-size: contain;
   background-repeat: no-repeat;
 }
