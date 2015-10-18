@@ -39,7 +39,6 @@ startButton.onclick = function(){
 
     if(millisec < 10){
       millisec = "00" + millisec;
-      console.log("working");
     }else{
       if(millisec < 100){
         millisec = "0"+millisec;
