@@ -3,15 +3,25 @@
   <head>
     <meta charset="utf-8">
     <title>StopWatch</title>
-    <link rel="stylesheet" href="stylesheets.css" media="screen" title="no title" charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
-    <div id="box">
-      <h1 id="timer">00:00:00:000</h1>
-      <button type="button" id="start">start</button>
-      <button type="button" id="stop">stop</button>
-      <button type="button" id="reset">reset</button>
-   </div>
+    <div id="container">
+      <div class="hero is-fullheight is-primary level">
+        <section class="section level-item">
+          <div>
+            <h1 class="title is-1 has-text-centered" id="timer">00:00:00:000</h1>
+            <div class="buttons is-centered">
+              <button class="button is-large is-success" type="button" id="start">start</button>
+              <button class="button is-large is-danger" type="button" id="stop">stop</button>
+              <button class="button is-large is-warning" type="button" id="reset">reset</button>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
     <script type="text/javascript" src="./index.js"></script>
   </body>
 </html>
